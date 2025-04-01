@@ -1,6 +1,6 @@
 package main
 
-import "go-base/goroutine"
+import "hello_go/goroutine"
 
 func main() {
 	// goroutine.CallBase()

@@ -1,6 +1,6 @@
 package main
 
-import "go-base/network/client"
+import "hello_go/network/client"
 
 func main() {
 	client.StartClient()

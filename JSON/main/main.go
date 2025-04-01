@@ -1,6 +1,6 @@
 package main
 
-import json_test "go-base/JSON"
+import json_test "hello_go/JSON"
 
 func main() {
 	json_test.CallJson()

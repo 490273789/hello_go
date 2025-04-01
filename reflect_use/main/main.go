@@ -1,6 +1,6 @@
 package main
 
-import "go-base/reflect_use"
+import "hello_go/reflect_use"
 
 func main() {
 	// reflect_use.CallReflect()

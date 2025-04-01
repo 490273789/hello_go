@@ -1,6 +1,6 @@
 package main
 
-import "go-base/oop"
+import "hello_go/oop"
 
 func main() {
 	// go支持面向对象的特性，但是和传统的面向对象有区别，并不是纯粹面向对象语言

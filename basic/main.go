@@ -2,8 +2,8 @@ package main
 
 import (
 	"fmt"
-	"go-base/type_conversion"
-	"go-base/util"
+	"hello_go/type_conversion"
+	"hello_go/util"
 	"unsafe"
 )
 

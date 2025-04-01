@@ -11,9 +11,9 @@ func CallCopy() {
 
 func copy() {
 	// 源文件
-	originFilePath := "/Users/wangshaonan/code/go/go-base/file/test2.txt"
+	originFilePath := "/Users/wangshaonan/code/go/hello_go/file/test2.txt"
 	// 目标文件
-	targetFilePath := "/Users/wangshaonan/code/go/go-base/file/test3.txt"
+	targetFilePath := "/Users/wangshaonan/code/go/hello_go/file/test3.txt"
 
 	// 读取文件
 	content, readErr := os.ReadFile(originFilePath)

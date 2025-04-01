@@ -12,7 +12,7 @@ func CallWriteOutFile() {
 
 func input() {
 	// 打开文件
-	file, err := os.OpenFile("/Users/wangshaonan/code/go/go-base/file/test2.txt", os.O_RDWR|os.O_APPEND|os.O_CREATE, 0777)
+	file, err := os.OpenFile("/Users/wangshaonan/code/go/hello_go/file/test2.txt", os.O_RDWR|os.O_APPEND|os.O_CREATE, 0777)
 	permiss := os.FileMode(0777).String()
 	fmt.Println("权限是：", permiss)
 

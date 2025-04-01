@@ -2,7 +2,7 @@ package main
 
 import (
 	"fmt"
-	"go-base/oop"
+	"hello_go/oop"
 )
 
 func main() {

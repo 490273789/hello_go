@@ -2,7 +2,7 @@ package main
 
 import (
 	"fmt"
-	"go-base/function"
+	"hello_go/function"
 )
 
 var age int = getAge()

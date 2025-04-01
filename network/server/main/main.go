@@ -1,6 +1,6 @@
 package main
 
-import "go-base/network/server"
+import "hello_go/network/server"
 
 func main() {
 	server.StartServer()

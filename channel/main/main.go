@@ -1,6 +1,6 @@
 package main
 
-import "go-base/channel"
+import "hello_go/channel"
 
 func main() {
 	// channel.CallBase()

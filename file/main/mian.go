@@ -1,6 +1,6 @@
 package main
 
-import "go-base/file"
+import "hello_go/file"
 
 func main() {
 	// file.CallBase()
