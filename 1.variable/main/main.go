@@ -1,5 +1,13 @@
+// 包声明： 字母和下划线组合
+// 可以和文件夹名字不同
+// 同一个文件夹下的package名必须相同
+// package main 是一个特殊的包，表示该文件是一个可执行程序的入口点
 package main // 声明文件所在的包，每个go文件必须有归属的包
 
+// 引入包
+// import ( "fmt", _ "strings")
+// 如果包引入了但是没有是用，会报错
+// 匿名引入：前面多了一个下划线
 import (
 	"fmt"
 	variable "hello_go/1.variable"
@@ -47,9 +55,10 @@ func main() {
 	fmt.Printf("全局变量 message: %s \n", message)
 	fmt.Printf("全局变量 description: %s \n", description)
 	// 使用version包中的变量
-	fmt.Printf("version: %s", version.Version)
-	variable.DefinedVariable()
-	variable.DefaultValue()
+	fmt.Printf("version: %s \n", version.Version)
+	// variable.DefinedVariable()
+	// variable.DefaultValue()
+	variable.UseConst()
 	scope()
 }
 

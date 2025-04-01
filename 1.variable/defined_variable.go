@@ -5,6 +5,7 @@ import "fmt"
 // 变量的定义
 func DefinedVariable() {
 	// 方式1： 先声明， 在赋值
+	// 只声明不赋值，会给这个类型的默认值
 	var name0 string
 	fmt.Printf("name0: %s \n", name0)
 	name0 = "王"
