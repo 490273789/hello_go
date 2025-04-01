@@ -21,7 +21,7 @@ func stringAscII() {
 
 }
 
-func stringMethod() {
+func UseString() {
 	//	字符串里面可以包含任意的Unicode字条
 	//	\ 转义字符
 	//	`` 模板字符串，里面的换行空格都不会被忽略
@@ -68,7 +68,7 @@ func stringMethod() {
 	fmt.Printf("The last occurrence of \"e\" in the str1 is - %d \n", strings.LastIndex(str1, "e"))
 }
 
-func stringJoin() {
+func StringJoin() {
 	//	字符串拼接
 	//	加号拼接 +  缺点每次连接新的字符串都会重新申请新的空间
 	//	func fmt.Sprintf(format string, a ...interface{}) string
@@ -93,7 +93,7 @@ func stringJoin() {
 	fmt.Println(join4)
 }
 
-func stringStruct() {
+func StringStruct() {
 	// 字符类型
 	var c1 byte = 'a'
 	fmt.Println(c1)

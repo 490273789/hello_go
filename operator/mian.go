@@ -1,16 +1,8 @@
-// 包声明： 字母和下划线组合
-// 可以和文件夹名字不同
-// 同一个文件夹下的声明一致
 package main
 
 import (
 	"fmt"
 )
-
-// 引入包
-// import ( "fmt", _ "strings")
-// 如果包引入了但是没有是用，会报错
-// 匿名引入：前面多了一个下划线
 
 // 变量声明
 // 首字母大写，全局可以访问
@@ -45,97 +37,6 @@ func ch() {
 	for _, ele := range s {
 		fmt.Printf("%c %d %T\n", ele, ele, ele)
 	}
-}
-
-func fmtContent() {
-	// 布尔
-	// default: false
-	// %t
-	// bool: true, false
-
-	// 整型
-	// %d
-	// default: 0
-	// 有符号：int8,int16,int32,int64,int
-	// 无符号：uint8,uint16,uint32,uint64,uint
-	// 浮点型
-	// default: 0
-	// %f %e %g  %o %x %p
-	// float32,float64
-
-	// 指针
-	// default: nil
-	// %d %p
-	// uintptr
-
-	// 引用
-	// default: nil
-	// %v
-	// map slice channel
-
-	// 字节 - %d
-	// byte，，本质是uint8
-
-	// 任意字符 - %d
-	// rune 直观理解就是字符，本质是int32，一个rune四个字节
-
-	// 字符串 %s
-	// 错误 - %v
-
-	// fmt 格式化输出
-	// 常用的：%s - 字符串占位符,%d - 数字占位符,%v,%+v,%#v
-	// 常用的：%f - float占位符,%d
-}
-
-func constant() {
-	// 声明常量
-	const sex = "男"
-	println(sex)
-	// 批量声明
-	const (
-		PI  = 3.14
-		PI1 = 3.15
-	)
-
-	const (
-		PI2 = 100
-		PT3 // 100跟上一行的值相同
-		PI4 // 100
-	)
-
-	// iota
-	const (
-		v0 = iota // 默认是0
-		v1        // 1
-		v2        // 2
-		v3        // 3
-	)
-	const (
-		f0 = iota // 默认是0
-		f1        // 1
-		_         // 2
-		f3        // 3
-	)
-
-	const (
-		g0 = iota // 默认是0
-		g1 = 30   // 1
-		g2 = iota // 2
-		g3        // 3
-	)
-
-	const (
-		_  = iota
-		KB = 1 << (10 * iota)
-		MB = 1 << (10 * iota)
-		GB = 1 << (10 * iota)
-		TB = 1 << (10 * iota)
-	)
-
-	const (
-		h1, h2 = iota + 1, iota + 2 // iota = 0
-		h3, h4                      // iota =1
-	)
 }
 
 type user struct {
